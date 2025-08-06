@@ -75,9 +75,4 @@ No arquivo `agenda/controller/ContatoDAO.java`, certifique-se de que os detalhes
 
 ```
 
----
 
-### **Tópicos para o GitHub**
-
-`java` `jdbc` `mysql` `crud-application` `console-application` `database` `java-jdbc` `contact-manager` `cli-app`
-```
