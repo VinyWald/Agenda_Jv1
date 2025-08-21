@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Task Every Day Baby</title>
+<link rel="icon" href="imagens/352510_local_phone_icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="tit">Criar novo trabalho</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><textarea type="text" name="tipo" placeholder="Tipo"
+					class="cx"></textarea></td>
+			</tr>
+			<tr>
+				<td><textarea type="text" name="mat" placeholder="Matéria"
+					class="cx"></textarea></td>
+			</tr>
+			<tr>
+				<td><textarea type="text" name="desc" placeholder="Descrição"
+					class="cx"></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="date" name="data" class="caixa1" value="2024-01-01"><span class="aviso">* Não esqueça de colocar a data correta</span></td>
+				
+				
+			</tr>
+
+		</table>
+		<input type="button" value="Adicionar" class="botao1"
+			onclick="validar()">
+	</form>
+	<script src="scripts/validador.js"></script>
+	<div class="wrapper">
+
+
+		<footer>
+			<h>&copy; 2024 Tchunflay soluções Web. Todos os direitos
+			reservados.</h>
+		</footer>
+	</div>
+</body>
+</html>
